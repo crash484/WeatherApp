@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '9xl': '9rem', // Custom size
+        '3xl': '3rem' // Custom size
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
